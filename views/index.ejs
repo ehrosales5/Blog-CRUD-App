@@ -3,7 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Page</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <title>Bloggers</title>
+
+  <!-- views/index.ejs -->
+
+<body class="index-body">
+  <%- include('./partials/_navbar.ejs') %>
+  <div class="index-container">
+    <div class="text-container">
+      <h1 class="main-header">Bloggers</h1>
+      <p class="subheader">A place to share your thoughts.</p>
+    </div>
+    <div class="auth-links">
+      <a class="signup-link" href="/auth/sign-up">Sign Up</a>
+      <a class="signin-link" href="/auth/sign-in">Sign In</a>
+    </div>
+  </div>
+</body>
+
 </head>
 <body>
   <% if (user) { %>
@@ -18,6 +36,6 @@
       <a href="/auth/sign-in">Sign in</a>.
     </p>
   <% } %>
-  <p><a href="/vip-lounge">Get into the VIP Users Only lounge!</a></p>
+  <p><a href="/vip-lounge"></a></p>
 </body>
 </html>

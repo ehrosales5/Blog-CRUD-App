@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Blogs</title>
+</head>
+
+<body>
+<!-- views/applications/index.ejs -->
+
+<div class="all-blogs-body">
+    <div class="all-blogs-header">
+      <h1>Your Blogs</h1>
+      <a class="add-blog-link" href="/users/<%=user._id%>/blogs/new"
+        >Add a Blog!</a
+      >
+    </div>
+    <ul>
+      <% blogs.forEach((blog)=>{ %>
+      <a href="/users/<%= user._id %>/blogs/<%= blog._id %>">
+        <li><%= blog.title %> by <%= blog.author %></li>
+      </a>
+      <% }) %>
+    </ul>
+  </div>
+</body>
+
+</html>  

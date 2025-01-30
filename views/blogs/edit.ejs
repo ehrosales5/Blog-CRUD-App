@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <title>Editing <%= blog.title %></title>
+</head>
+<body>
+  <%- include('../partials/_navbar.ejs') %>
+    <!-- views/applications/edit.ejs -->
+
+<div class="edit-body">
+    <h1>Edit <%= blog.title %> by <%= blog.author %></h1>
+    <form
+      action="/users/<%= user._id %>/blogs/<%= blog._id %>?_method=PUT"
+      method="POST"
+    >
+      ...
+    </form>
+  </div>
+  
+
+  <h1>Edit <%= blog.title %></h1>
+  <form
+    action="/users/<%= user._id %>/blogs/<%= blog._id %>?_method=PUT"
+    method="POST"
+  >
+    <label for="title">Title:</label>
+    <input
+      type="text"
+      name="title"
+      id="title"
+      value="<%= blog.title %>"
+    >
+    <label for="author">Author:</label>
+    <input 
+    type="text"
+    name="author"
+    id="author"
+    value="<%= blog.author %>"
+    >
+    <label for="publishedDate">Published:</label>
+    <input
+        type="number"
+        name="publishedDate"
+        id="publishedDate"
+        value="<%= blog.publishedDate %>">
+
+    <label for="description">Description:</label>
+    <input 
+        type="text"
+        name="description"
+        id="description"
+        value="<%= blog.description %>"
+        >
+
+
+
+
+    <select id="blogStars" name="blogStars">
+      <option
+        value="1"
+        <%= blog.blogStars === "1" ? "selected" : "" %>
+        >
+          1
+        </option>
+        <option
+          value="2"
+          <%= blog.blogStars === "2" ? "selected" : "" %>
+      
+        >
+          2
+        </option>
+        <option
+          value="3"
+          <%= blog.blogStars === "3" ? "selected" : "" %>
+        >
+          3
+        </option>
+        <option
+          value="4"
+          <%= blog.blogStars === "4" ? "selected" : "" %>
+        >
+          4
+        </option>
+        <option
+          value="5"
+          <%= blog.blogStars === "5" ? "selected" : "" %>
+        >
+          5</option>
+    </select>
+    <button type="submit">Update Blog</button>
+  </form>
+</body>
+</html>
