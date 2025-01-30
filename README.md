@@ -19,6 +19,16 @@ just start typing and share your blog!
 
 ## 📸 Screenshots
 
+<img width="429" alt="Image" src="https://github.com/user-attachments/assets/568f97a7-bbd2-44df-a798-b0abd63d89a5" />
+
+<img width="428" alt="Image" src="https://github.com/user-attachments/assets/47b2f6da-7251-48b3-a093-9e74e388458b" />
+
+<img width="1469" alt="Image" src="https://github.com/user-attachments/assets/6eca9d55-7a96-4dc4-95f9-e17d8c15aa58" />
+
+<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/5b660ee8-cc48-4b72-a17b-acaf7abfbacd" />
+
+<img width="1468" alt="Image" src="https://github.com/user-attachments/assets/107c7036-bc05-4819-9dcb-f4f7f35a4baa" />
+
 <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/23c4bdac-85c5-4b6a-b80c-d66daffe9ec0" />
 
 ## :computer: Technologies Used
