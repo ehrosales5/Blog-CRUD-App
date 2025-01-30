@@ -19,9 +19,9 @@ just start typing and share your blog!
 
 ## 📸 Screenshots
 
-<img width="429" alt="Image" src="https://github.com/user-attachments/assets/568f97a7-bbd2-44df-a798-b0abd63d89a5" />
+1. <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/23c4bdac-85c5-4b6a-b80c-d66daffe9ec0" />
 
-<img width="428" alt="Image" src="https://github.com/user-attachments/assets/47b2f6da-7251-48b3-a093-9e74e388458b" />
+2. <img width="429" alt="Image" src="https://github.com/user-attachments/assets/568f97a7-bbd2-44df-a798-b0abd63d89a5" /><img width="428" alt="Image" src="https://github.com/user-attachments/assets/47b2f6da-7251-48b3-a093-9e74e388458b" />
 
 <img width="1469" alt="Image" src="https://github.com/user-attachments/assets/6eca9d55-7a96-4dc4-95f9-e17d8c15aa58" />
 
@@ -29,7 +29,7 @@ just start typing and share your blog!
 
 <img width="1468" alt="Image" src="https://github.com/user-attachments/assets/107c7036-bc05-4819-9dcb-f4f7f35a4baa" />
 
-<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/23c4bdac-85c5-4b6a-b80c-d66daffe9ec0" />
+
 
 ## :computer: Technologies Used
 <img alt="HTML5" src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=HTML5&color=E34F26"> <img alt="CSS" src="https://img.shields.io/badge/Code-CSS3-blue?style=flat&logo=css3&logoColor=blue"> <img alt="JS" src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&color=F7DF1E"> <img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-informational?style=flat&logo=VisualStudioCode&color=blue">
