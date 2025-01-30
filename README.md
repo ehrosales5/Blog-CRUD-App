@@ -28,7 +28,7 @@ just start typing and share your blog!
 ### You'll see a list of your blogs and the button to Add Blog
 <img width="1469" alt="Image" src="https://github.com/user-attachments/assets/6eca9d55-7a96-4dc4-95f9-e17d8c15aa58" />
 
-### Once you created a blog you can see a list of your blogs
+### Create your blog
 <img width="1470" alt="Image" src="https://github.com/user-attachments/assets/5b660ee8-cc48-4b72-a17b-acaf7abfbacd" />
 
 ### Click on a blog to update or delete it
