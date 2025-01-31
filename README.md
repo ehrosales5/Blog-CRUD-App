@@ -40,3 +40,8 @@ just start typing and share your blog!
 <img alt="HTML5" src="https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=HTML5&color=E34F26"> <img alt="CSS" src="https://img.shields.io/badge/Code-CSS3-blue?style=flat&logo=css3&logoColor=blue"> <img alt="JS" src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&color=F7DF1E"> <img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-informational?style=flat&logo=VisualStudioCode&color=blue">
 
 <br>
+
+## ⏭️ Next Steps:
+
+1. Improve design
+2. Add features such as followers and likes
